@@ -5,7 +5,7 @@ import Upload from "./pages/Upload";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/text-to-table">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/upload" element={<Upload />} />
